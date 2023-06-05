@@ -1,1 +1,24 @@
 /* write your override styles here */
+#wall .tag-1 {
+    z-index: 5;
+    
+}
+
+#wall #tag-5 {
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+#wall .parent #tag-4 {
+    border-style: ridge;
+    border-width: 100px;
+    border-radius: 50px;
+}
+
+.parent .class {
+    display: none;
+}
+
+#wall #tag-6 {
+    border-color: red;
+}
